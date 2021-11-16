@@ -66,10 +66,9 @@
 //     Якщо інша темпаретура, тоді виводимо повідомлення що сидимо вдома і вчимося ОНЛАЙН
 
 // let outAirTemp = +prompt('What is the out temperature today? Please enter number');
-// if (outAirTemp === 10 && outAirTemp <= 22) {
+// if (outAirTemp >= 10 && outAirTemp <= 22) {
 //     alert('We go to Okten office for practise lesson');
-// }
-// else{
+// } else {
 //     alert('Sit at home and do your online course');
 // }
 
