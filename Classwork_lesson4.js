@@ -112,23 +112,27 @@
 
 // - створити функцію яка заповнює масив рандомними числами (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 
-// function randomFunc(arr) {
-//     for (let i=0;i<15;i++) {
-//         arr[i] = Math.round(Math.random() * 100);
+// const randomNum = (arr) => {
+//     let newArr = [];
+//     for (let i = 0; i < arr; i++) {
+//         newArr.push(Math.round(Math.random() * 100));
 //     }
-//     return arr;
-// }
+//     return newArr;
+// };
+// console.log(randomNum(15));
+
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
 
-
-// function randomFunc(arr,limit) {
-//     for (let i = 0; i < 17; i++) {
-//
-//         arr[i] = Math.round(Math.random() * limit);
+// const randomNumWithLimit = (arr,limit) => {
+//     let newArr = [];
+//     for (let i = 0; i < arr; i++) {
+//         newArr.push(Math.round(Math.random() * limit));
 //     }
-//     return arr;
-// }
+//     return newArr;
+// };
+// console.log(randomNumWithLimit(10, 50));
+
 
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
@@ -136,6 +140,6 @@
 // function reverseArrFunc(arr) {
 //     let newArr = [];
 //     for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
-//         newArr[ri] = newArr[i];
+//         newArr[ri] = arr[i];
 //     }
 // }
