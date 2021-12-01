@@ -8,7 +8,7 @@
 // b) робить шириниу елементу ul 400px
 
 // let ulChanger = document.getElementsByTagName('ul');
-// ulChanger.style.width = '400px';
+// ulChanger[0].style.width = '400px';
 
 // c) робить шириниу всіх елементів з класом linkList шириною 50%
 
