@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 10px;
+        }
+
+        .menu{
+            cursor: pointer;
+        }
+        .menu.collapse ul{
+            display: none;
+        }
+        .body-comment {
+            transition: 1s;
+            height: 20px;
+
+
+        }
+        .collapse-comment {
+            height: 0;
+            overflow: hidden;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="text"><h1>Some Text</h1></div>
+<input type="button" id="btn1" value="Press me">
+<br>
+
+<input type="button" id="btn2" value="Hide me">
+<br>
+
+<input type="number" id="userAge">
+<button id="btn3">Submit</button>
+<br>
+
+<div class="menu">
+    <h3 class="viewer">View all days</h3>
+    <ul>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+        <li>Sunday</li>
+    </ul>
+</div>
+<br>
+
+
+
+<script src="Homework_lesson10.js"></script>
+
+</body>
+</html>
